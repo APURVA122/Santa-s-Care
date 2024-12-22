@@ -1,0 +1,186 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #f7f7f7, #d31b1b);
+    color: #efe8e8;
+    position: relative;
+    overflow-x: hidden;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+#care{
+    color:#cc0000
+}
+
+/* Snowfall Effect */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('snow.gif') repeat; /* Replace with a snowfall animation gif */
+    opacity: 0.4;
+    z-index: -1;
+}
+
+/* Header Styles */
+.header {
+    background-color: #e60000;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffe066;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #78aee4, #f30606);  
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #cc0000;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #d7c5c5;
+}
+
+/* Features Section */
+.features {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Horizontally center the boxes */
+    align-items: center; /* Vertically align the boxes if needed */
+    flex-wrap: wrap; /* Allow wrapping for multiple rows */
+    border: 4px solid white; /* Crisp white border */
+    border-radius: 12px; /* Smooth rounded corners */
+    padding: 20px; /* Add some spacing inside */
+    margin: 20px auto; /* Center the container itself */
+    max-width: 1000px; /* Limit the container width */
+    color: white; /* Text color */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.features .feature {
+    flex: 1 1 calc(30% - 40px); /* Flexible width for boxes */
+    max-width: 300px; /* Ensure consistent box size */
+    margin: 10px; /* Space between boxes */
+    background: linear-gradient(135deg, #78aee4, #e85a5a);  
+    border: 2px solid #cc0000;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.features .feature h2 a {
+    text-decoration: none;
+    color: #e60000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.features .feature h2 a:hover {
+    color: #ff6666;
+}
+
+.features .feature p {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #666;
+}
+
+.features:hover {
+    transform: scale(1.03); /* Slight zoom on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+}
+
+.features .feature:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styles */
+footer {
+    background: linear-gradient(135deg, #78aee4, #f30606);  
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #ffe066;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Button Styles */
+.button {
+    background-color: #e60000; /* Vibrant Santa Claus red */
+    color: white;
+    border: 2px solid #cc0000;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #cc0000; /* Darker red for hover effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+.button:active {
+    transform: scale(0.98); /* Slight press-down effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

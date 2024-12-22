@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Compare Surgery Rates - Santa's Care</title>
+    <!-- Linking to External Stylesheets for styling -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="compare.css"> <!-- Ensure correct path -->
+</head>
+<body>
+
+    <!-- Header Section: Contains the website title and navigation menu -->
+    <header class="header-santa">
+        <div class="container">
+            <!-- Brand Name: "Santa's Care" -->
+            <h1>Santa's Care</h1>
+            <nav>
+                <!-- Navigation Menu with links to other pages -->
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="compare.html" style="color:black">Compare Rates</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- December Theme Section: Highlighting the festive season and the spirit of healing -->
+    <section class="december-theme">
+        <div class="container">
+            <h2 class="highlight-title">December: The Month of Healing and Giving</h2>
+            <p class="highlight-text">
+                Just as Santa Claus brings joy to children around the world, <strong>Santa's Care</strong> delivers peace of mind by helping you find the best, most affordable healthcare options.  
+                This December, let us be the guide to your healing journey, offering transparency and care for every decision you make.
+            </p>
+            <!-- Image depicting the festive theme -->
+            <div class="highlight-image">
+                <img src="merry.webp" alt="Santa bringing care" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Surgery Compare Section: Where users can search and compare surgery rates -->
+    <section class="compare-section">
+        <div class="container">
+            <h2>Compare Surgery Rates</h2>
+
+            <!-- Search Bar for Surgery Type -->
+            <div class="search-bar">
+                <label for="surgery-type">Search Surgery:</label>
+                <input type="text" id="surgery-type" placeholder="Enter surgery type (e.g., Heart Surgery)">
+                <button onclick="searchSurgery()">Search</button>
+            </div>
+
+            <!-- Results will be populated here dynamically -->
+            <div id="hospital-list" class="hospital-list">
+                <!-- Hospital results will appear here after search -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section: Contains copyright and privacy policy links -->
+    <footer class="footer-santa">
+        <div class="container">
+            <p>&copy; 2024 Santa's Care. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+        </div>
+    </footer>
+
+    <!-- External JavaScript file to handle search functionality -->
+    <script src="compare.js"></script>
+
+</body>
+</html>
