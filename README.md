@@ -10,11 +10,29 @@ This website is designed with a December theme, focusing on the festive spirit o
 
 ## How to Use:
 To view the website and all its pages:
-1. Open the `index.html` file in your browser. 
+1. Open the `index.html` file in your browser and GO LIVE.
 2. The interactive "Surprise" button will reveal the main page with a welcoming introduction to the December theme.
 3. Navigate through the pages using the options available on the website.
 
 ## How to Run Locally:
 1. Clone this repository to your local machine using:
-   ```bash
+   git clone https://github.com/APURVA122/Santa-s-Care
+2.  Navigate to the project directory:
+   cd repository-name
+Open the index.html file in your preferred browser to view the website.
+3. Technologies Used:
+   HTML
+   CSS
+   JavaScript (for interactive effects)
+
+
+
+License:
+This project is open-source and available under the MIT License.
+
+Contact:
+If you have any questions or suggestions, feel free to reach out to mj8893854@gmail.com.
+
+Enjoy exploring the festive spirit of December! 🎅❄️
+
   
